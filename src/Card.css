@@ -1,0 +1,19 @@
+.card{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card-1{
+    border: 1px solid black;
+    width: 20%;
+    margin: 10px;
+}

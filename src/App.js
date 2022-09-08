@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Card from './Card';
+import "./Card.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='cards'>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+    <div className='card-1'><Card name={"Sachin"} jersey={21} score={211} wickets={2}/></div>
+
+
     </div>
   );
 }
